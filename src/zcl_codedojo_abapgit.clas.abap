@@ -15,6 +15,7 @@ CLASS zcl_codedojo_abapgit IMPLEMENTATION.
 
   METHOD test.
     WRITE 'Hello'.
+    Write 'Test'.
   ENDMETHOD.
 
 ENDCLASS.
