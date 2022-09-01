@@ -4,7 +4,7 @@ CLASS zcl_codedojo_abapgit DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-  methods: test.
+    METHODS test.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -13,8 +13,8 @@ ENDCLASS.
 
 CLASS zcl_codedojo_abapgit IMPLEMENTATION.
 
-method test.
-
-endmethod.
+  METHOD test.
+    WRITE 'Hello'.
+  ENDMETHOD.
 
 ENDCLASS.
